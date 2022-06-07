@@ -1,0 +1,63 @@
+.anime {
+    border-left: 0px;
+}
+
+.profilePicture div {
+    border: 1px #ccc solid;
+    padding: 10px;
+    padding-top: 0vh;
+    
+}
+
+.pictureOfme {
+    order: 1;
+    align-self: center;
+  
+}
+img {
+    height: auto;
+    width: 300px;
+}
+.myName {
+    order: 2;
+    text-align: center;
+}
+
+.myInfo {
+    border: 1px #ccc solid;
+    padding: 10px;
+    
+}
+
+html {
+    /*background-color: rgb(56, 56, 255);*/
+    background-image: radial-gradient(circle,  rgb(148, 164, 255), rgb(56, 56, 255));
+   /* background-image: linear-gradient(rgb(56, 56, 255), white); */
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 1%;
+    margin:6% 22%;
+    width: 55vw;
+    height: 60vh;
+    display: flex;
+}
+.foreground {
+    display: flex;
+}
+
+.contactDetails{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.contactDetails img{
+    padding-top: 4vh;
+    height: auto;
+    width: 3.5vw;
+}
