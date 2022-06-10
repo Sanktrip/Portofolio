@@ -38,7 +38,7 @@ body {
     margin:6% 22%;
     width: 55vw;
     height: auto;
-    display: flex;
+    
 }
 .foreground {
     display: flex;
@@ -98,3 +98,6 @@ body {
     height: auto;
 }
 
+.cse {
+    margin: 0%
+}
