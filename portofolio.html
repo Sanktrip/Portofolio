@@ -12,7 +12,9 @@
         </div>
         <div class="myName">
             <h2>Sankalpa Tripathee</h2>
+            <hr>
         </div> 
+       
         <div class="contactDetails">
                 <a href="https://twitter.com/SankalpaTripat1" target="_blank"> <img src="images/twitter.png"></a>      
                 <a href="https://www.instagram.com/sanktrip03/" target="_blank"> <img src="images/instagram.png"></a>
@@ -30,21 +32,35 @@
             <p>
     Hi, I'm Sankalpa, a first year quantum engineering and computer science student at UNSW. I was originally born in Nepal, but moved to Australia when I was 4. I say I'm cultured but I can't even speak my native language. I suck at games and watch a disgusting amount of anime.
             </p>
-            <div class="tabContainers">
-                <div class="buttonContainer">
-                    <button onclick="showPanel(0, 'white')"><strong>Pets</strong></button>
-                    <button onclick="showPanel(1, 'white')"><strong>Travels</strong></button>
-                    <button  onclick="showPanel(2, 'white')"><strong>Anime</strong></button>
+            <div class="mytabs">
+                <input type="radio" id="tabpets" name="mytabs" checked="checked">
+                <label for="tabpets">My Pets</label>
+                <div class="tab">
+                    <img src="images/jimmy.JPG">
+                    <img src="images/turtle.JPG">
+                    <img src="images/Cat.jpg">
+                    <img src="images/pet4.jpg">
                 </div>
-                <div class="tabPanel">Tab 1:Content</div>
-                <div class="tabPanel">Tab 2:Content</div>
-                <div class="tabPanel">Tab 3:Content</div>
-
-            </div>
-    
-    
-    
-        </div>
+            
+                <input type="radio" id="tabsilver" name="mytabs">
+                <label for="tabsilver">Travel Photos</label>
+                <div class="tab">
+                    <img src="images/holiday1.jpg">
+                    <img src="images/holiday2.jpg">
+                    <img src="images/holiday4.jpg">
+                    <img src="images/428.JPG">
+                </div>
+            
+                <input type="radio" id="tabanime" name="mytabs">
+                <label for="tabanime">Young me</label>
+                <div class="tab">
+                    <img src="images/youngme.jpg">
+                    <img src="images/babyme.JPG">
+                    <img src="images/mefight.jpg">
+                    <img src="images/youngme1.JPG">
+                </div>
+            
+              </div>
     
     
 </div>
